@@ -83,7 +83,7 @@
     // .main__background
 
     &__background {
-        background-image: url('../img/Roman.png');
+        background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/marlowliteypxjs/Group%204291.png');
         background-repeat: no-repeat;
        padding-bottom: 0;
         background-size: cover;
@@ -320,6 +320,7 @@
     .header__link--Home{
         display: none;
     }
+    .header__link--shopping{}
 
     .header__logo--name{
         font-size: 22px;
@@ -328,8 +329,10 @@
         font-size: 16px;
     }
     .main__background{
-        background-image: url('../img/Roman.png');
-        padding-top: 100px;
+        background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/marlowliteypxjs/Group%204291.png');
+        
+        background-origin: content-box;
+    padding-top: 75px;
     }
     .main__background__button{
         padding-bottom: 50px;
